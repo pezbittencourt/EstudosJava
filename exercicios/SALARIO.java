@@ -19,6 +19,6 @@ double impostoalto = 49.50 / 100;
         salario = salario * impostoalto;
 
     }
-        System.out.println("seu imposto será de: "+ salario);
+        System.out.printf("seu imposto será de: %.2f%n", salario);
 }
     }
